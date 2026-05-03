@@ -103,7 +103,7 @@ This project is licensed under the **GNU General Public License v3.0** — see t
 
 ## 🐱 Special Thanks
 
-To **mimi**, the cat who inspired the name and deserves all the credit.
+A special thanks to **mimi** — the legendary, the great, the gentle cat.
 
 ---
 
