@@ -69,8 +69,8 @@ Desired screen frequency: 144hz
 Keyboard type: 75%
 keyboard & mouse: light up
 Is there a problem with the device, and will that affect the price?: tell me
-Speak to me in this language: Arabic
-Using this information, please provide me with the detailed and accurate market price of the device in this country (Saudi Arabia)
+Speak to me in this language: English
+Using this information, please provide me with the detailed and accurate market price of the device in this country (Switzerland)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ```
 
