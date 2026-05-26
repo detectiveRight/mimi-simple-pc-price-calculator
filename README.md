@@ -1,35 +1,32 @@
-# 🖥️ mimi-simple-pc-price-calculator
+# mimi-simple-pc-price-calculator
 
-> A CLI tool that collects your PC or laptop hardware specifications and generates a ready-to-use AI prompt to estimate your device's market price in your country.
+A CLI tool that collects your PC or laptop hardware specifications and generates a ready-to-use AI prompt to estimate your device's market price in your country.
 
 ---
 
-## 💡 What is this?
+## What is this?
 
-You have a PC or laptop and want to know its **real market price** — but you don't want to manually describe every spec to an AI tool every single time.
+You have a PC or laptop and want to know its real market price — but you do not want to manually describe every spec to an AI tool every single time.
 
-This tool asks you the right questions, then **generates a complete, ready-to-copy AI prompt** with all your hardware details so any AI (ChatGPT, Gemini, Claude, lumo, etc.) can give you an accurate price estimate for your country.
+This tool asks you the right questions, then generates a complete, ready-to-copy AI prompt with all your hardware details so any AI (ChatGPT, Gemini, Claude, Lumo, etc.) can give you an accurate price estimate for your country.
 
 No API. No dependencies. Just Python.
 
 ---
 
-## ⚙️ How it works
+## How it works
 
-```
-Run the script → Answer the questions → Copy the generated prompt → Paste it into any AI
-```
-
-That's it.
+Run the script → Answer the questions → Copy the generated prompt → Paste it into any AI.
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Requirements
+
 - Python 3.x
 
-### Run
+### Installation & Usage
 
 ```bash
 git clone https://github.com/MultiRight/mimi-simple-pc-price-calculator.git
@@ -39,24 +36,23 @@ python mimi-simple-pc-price-calculator.py
 
 ---
 
-## 📋 What it asks you
+## What it asks you
 
-| Category | Details |
-|---|---|
-| **Device** | Type (PC / Laptop), Condition (new / used) |
-| **Hardware** | CPU, GPU, RAM, Storage (size + type), Motherboard |
-| **Accessories** | Monitor frequency, Keyboard size, Backlit or not |
-| **AI Preferences** | Bottleneck analysis, Language, Country |
+| Category      | Details                                              |
+|---------------|------------------------------------------------------|
+| Device        | Type (PC / Laptop), Condition (new / used)           |
+| Hardware      | CPU, GPU, RAM, Storage (size + type), Motherboard    |
+| Accessories   | Monitor frequency, Keyboard size, Backlit or not     |
+| AI Preferences| Bottleneck analysis, Language, Country               |
 
 ---
 
-## 📤 Output Example
+## Output Example
 
 ```
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Hello, please act as if you are an expert in hardware, software, and programming.
 Please provide us with your device specifications as follows:
-
 Device type: pc
 Device source: used
 cpu: Intel Core i5-10400F
@@ -76,43 +72,41 @@ Using this information, please provide me with the detailed and accurate market 
 
 ---
 
-## 🌐 Supported Languages
+## Supported Languages
 
-The output prompt supports **any language** — just type it when asked. The AI will respond in your preferred language.
-
----
-
-## 🔒 Privacy Tip
-
-If you're concerned about sharing your hardware specs with big tech companies, consider using **[Lumo AI by Proton](https://lumo.proton.me/)** — a privacy-focused AI assistant from the makers of ProtonMail. Your data stays private and isn't used for training or shared with third parties.
+The output prompt supports any language — just type it when asked. The AI will respond in your preferred language.
 
 ---
 
-## 📄 License
+## Privacy Note
 
-This project is licensed under the **GNU General Public License v3.0** — see the [LICENSE](LICENSE) file for details.
+If you are concerned about sharing your hardware specs with large tech companies, consider using [Lumo AI by Proton](https://proton.me/lumo) — a privacy-focused AI assistant from the makers of ProtonMail. Your data remains private and is not used for training or shared with third parties.
 
 ---
 
-## 👤 Author
+## License
+
+This project is licensed under the **[GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html)** — see the `LICENSE` file for details.
+
+---
+
+## Author
 
 **detectiveRight**
+
 - GitHub: [@MultiRight](https://github.com/MultiRight)
+- Repository: [mimi-simple-pc-price-calculator](https://github.com/MultiRight/mimi-simple-pc-price-calculator)
 
 ---
 
 ## 🐱 Special Thanks
-
 A special thanks to **mimi** — the legendary, the great, the gentle cat.
 
----
-
-*Built as a simple utility to save time when estimating PC prices using AI tools.*
+Built as a simple utility to save time when estimating PC prices using AI tools.
 
 ---
 
-## ©️ Copyright
+## Copyright
 
-Copyright © 2026 MultiRight <<https://github.com/MultiRight/>>
+Copyright © 2026 MultiRight — <https://github.com/MultiRight/>
 
-This project is open source under the GNU General Public License v3.0.
